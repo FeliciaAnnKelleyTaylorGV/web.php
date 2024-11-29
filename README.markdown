@@ -6,8 +6,8 @@
 ```php
 <?php
 include 'web.php';
-get('/', function() {
-    die('Hello, World!');
+get('*/', function(POST) {
+    ('printf');
 });
 ```
 
